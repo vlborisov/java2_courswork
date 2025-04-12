@@ -29,7 +29,7 @@ public class DataGeneratorUtil {
      * Генерация кол-ва ресурсов для города
      */
     private static int recourseCountGeneratorForCity() {
-        return Faker.instance().number().numberBetween(0, 400);
+        return Faker.instance().number().numberBetween(0, 450);
     }
 
     /**
